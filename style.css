@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Forest Path</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <section>
-    <h1>Forest Path</h1>
-    <p>Where green whispers guide the way.</p>
-    <img src="image.png" alt="Forest view">
-  </section>
-</body>
-</html>
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  background: linear-gradient(to bottom, #ffefba, #ffffff);
+  text-align: center;
+}
+main {
+  padding: 55px;
+}
+h1 {
+  color: #e67e22;
+}
+p {
+  font-size: 1.2em;
+  color: #444;
+}
+img {
+  width: 320px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
